@@ -21,7 +21,7 @@ parts:
     build-packages:
       - build-essential
       - pkg-config
-      - libtool
+      - libltdl-dev
       - liblua5.2-dev
       - libcairo2-dev
       - libgstreamer1.0-dev
