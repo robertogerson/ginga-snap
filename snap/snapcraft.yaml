@@ -19,6 +19,7 @@ parts:
     source-type: git
     plugin: autotools
     build-packages:
+      - build-essential
       - pkg-config
       - libtool
       - liblua5.2-dev
