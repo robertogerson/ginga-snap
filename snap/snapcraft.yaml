@@ -9,7 +9,7 @@ confinement: devmode # use 'strict' once you have the right plugs and slots
 
 apps:
   ginga:
-    command: bin/gingagui
+    command: bin/ginga
     plugs: [home, network]
 
 parts:
