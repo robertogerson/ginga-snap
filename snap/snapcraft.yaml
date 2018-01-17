@@ -10,7 +10,7 @@ confinement: devmode # use 'strict' once you have the right plugs and slots
 apps:
   ginga:
     command: desktop-launch bin/ginga
-    plugs: [home, network]
+    plugs: [home, network, desktop]
 
 parts:
   ginga:
