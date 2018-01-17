@@ -9,7 +9,7 @@ confinement: devmode # use 'strict' once you have the right plugs and slots
 
 apps:
   ginga:
-    command: bin/ginga
+    command: desktop-launch bin/ginga
     plugs: [home, network, x11]
 
 parts:
@@ -29,5 +29,5 @@ parts:
       - libgstreamer-plugins-good1.0-dev
       - libgtk-3-dev
       - libxerces-c-dev
-
+    after: [desktop/gtk3]
 
